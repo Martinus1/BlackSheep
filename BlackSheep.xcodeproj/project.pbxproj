@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2931F101BF844174820AA038 /* Pods_BlackSheep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA670A360C241B03AB72B1FD /* Pods_BlackSheep.framework */; };
+		8F0AF22323999B2700BDDC93 /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AF22223999B2700BDDC93 /* EmojiCell.swift */; };
+		8F0D504023AF77BF00616353 /* PreCreateTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0D503F23AF77BF00616353 /* PreCreateTaskVC.swift */; };
+		8F1CCF1823797C4C00E5F6C2 /* TaskCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1CCF1723797C4C00E5F6C2 /* TaskCustomView.swift */; };
+		8F2B37F92355DE3600B3861D /* TimeConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B37F82355DE3600B3861D /* TimeConvertor.swift */; };
+		8F2B38002355FE4F00B3861D /* BlackSheep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B37FE2355FE4F00B3861D /* BlackSheep.xcdatamodeld */; };
+		8F2B380723608A7200B3861D /* GlobalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B380623608A7200B3861D /* GlobalVars.swift */; };
+		8F33B4A8239D3FC5004D09D1 /* CategoryBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B4A7239D3FC5004D09D1 /* CategoryBtn.swift */; };
+		8F33B4AA239D53A5004D09D1 /* CreateCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B4A9239D53A5004D09D1 /* CreateCategoryVC.swift */; };
+		8F33B4AC239D58C4004D09D1 /* ColorBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B4AB239D58C4004D09D1 /* ColorBtn.swift */; };
+		8F64C6E823D5C8B1004DC442 /* CalendarHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F64C6E723D5C8B1004DC442 /* CalendarHeader.swift */; };
+		8F6902A323993477008AF389 /* EmojiSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6902A223993477008AF389 /* EmojiSelectorVC.swift */; };
+		8F6C3584237A034F00F49CA3 /* EditTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C3583237A034E00F49CA3 /* EditTaskVC.swift */; };
+		8F6C3586237A0F1200F49CA3 /* TaskDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C3585237A0F1200F49CA3 /* TaskDetailsVC.swift */; };
+		8F6C358A237DF5DA00F49CA3 /* ShakeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C3589237DF5DA00F49CA3 /* ShakeBtn.swift */; };
+		8F6C358C237DF97500F49CA3 /* weekBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C358B237DF97500F49CA3 /* weekBtn.swift */; };
+		8F6C3590237ED48800F49CA3 /* addTaskBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C358F237ED48800F49CA3 /* addTaskBtn.swift */; };
+		8F73D89A232FB68D00D99BFF /* CreateTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F73D899232FB68D00D99BFF /* CreateTaskVC.swift */; };
+		8F807B9823964852009BB5A6 /* CustomizableSegmentedCotrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F807B9723964852009BB5A6 /* CustomizableSegmentedCotrol.swift */; };
+		8FAE2D1923B145A900B624D6 /* EmojiSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE2D1823B145A900B624D6 /* EmojiSectionHeaderView.swift */; };
+		8FB8FF8123D4E13400567C23 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8FF8023D4E13400567C23 /* CalendarCell.swift */; };
+		8FB8FF8323D4E1BC00567C23 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8FF8223D4E1BC00567C23 /* CalendarVC.swift */; };
+		8FB9430A23A50DF200B31B4B /* isPermanentSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9430923A50DF200B31B4B /* isPermanentSC.swift */; };
+		8FB9430D23AA426100B31B4B /* TimeLineAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9430C23AA426100B31B4B /* TimeLineAndLabel.swift */; };
+		8FBC130A23842E0000274CE7 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC130523842DFF00274CE7 /* Quicksand-Medium.ttf */; };
+		8FBC130B23842E0000274CE7 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC130623842DFF00274CE7 /* Quicksand-SemiBold.ttf */; };
+		8FBC130C23842E0000274CE7 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC130723842DFF00274CE7 /* Quicksand-Light.ttf */; };
+		8FBC130D23842E0000274CE7 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC130823842DFF00274CE7 /* Quicksand-Bold.ttf */; };
+		8FBC130E23842E0000274CE7 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC130923842E0000274CE7 /* Quicksand-Regular.ttf */; };
+		8FBC13102385E21A00274CE7 /* TaskTypeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC130F2385E21A00274CE7 /* TaskTypeBtn.swift */; };
+		8FDEB01C23984EA200923543 /* emojiBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEB01B23984EA200923543 /* emojiBtn.swift */; };
+		8FE81F1523B6BFD800E7F11E /* PersonTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE81F1423B6BFD800E7F11E /* PersonTask.swift */; };
+		8FE81F1B23B6C19C00E7F11E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE81F1A23B6C19C00E7F11E /* DataService.swift */; };
+		8FE81F1D23B6C78600E7F11E /* PresetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE81F1C23B6C78600E7F11E /* PresetCell.swift */; };
+		8FED0E2C2326BDEC007B1AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FED0E2B2326BDEC007B1AFB /* AppDelegate.swift */; };
+		8FED0E2E2326BDEC007B1AFB /* TaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FED0E2D2326BDEC007B1AFB /* TaskVC.swift */; };
+		8FED0E312326BDEC007B1AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FED0E2F2326BDEC007B1AFB /* Main.storyboard */; };
+		8FED0E362326BDEF007B1AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FED0E352326BDEF007B1AFB /* Assets.xcassets */; };
+		8FED0E392326BDEF007B1AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FED0E372326BDEF007B1AFB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D6525BB9873F9A9E1928FBB /* Pods-BlackSheep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackSheep.debug.xcconfig"; path = "Target Support Files/Pods-BlackSheep/Pods-BlackSheep.debug.xcconfig"; sourceTree = "<group>"; };
+		64A19D9AA5942F58A42791F9 /* Pods-BlackSheep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackSheep.release.xcconfig"; path = "Target Support Files/Pods-BlackSheep/Pods-BlackSheep.release.xcconfig"; sourceTree = "<group>"; };
+		8F0AF22223999B2700BDDC93 /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCell.swift; sourceTree = "<group>"; };
+		8F0D503F23AF77BF00616353 /* PreCreateTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreCreateTaskVC.swift; sourceTree = "<group>"; };
+		8F1CCF1723797C4C00E5F6C2 /* TaskCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCustomView.swift; sourceTree = "<group>"; };
+		8F2B37F82355DE3600B3861D /* TimeConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConvertor.swift; sourceTree = "<group>"; };
+		8F2B37FF2355FE4F00B3861D /* BlackSheep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlackSheep.xcdatamodel; sourceTree = "<group>"; };
+		8F2B380623608A7200B3861D /* GlobalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVars.swift; sourceTree = "<group>"; };
+		8F33B4A7239D3FC5004D09D1 /* CategoryBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBtn.swift; sourceTree = "<group>"; };
+		8F33B4A9239D53A5004D09D1 /* CreateCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCategoryVC.swift; sourceTree = "<group>"; };
+		8F33B4AB239D58C4004D09D1 /* ColorBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBtn.swift; sourceTree = "<group>"; };
+		8F64C6E723D5C8B1004DC442 /* CalendarHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeader.swift; sourceTree = "<group>"; };
+		8F6902A223993477008AF389 /* EmojiSelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSelectorVC.swift; sourceTree = "<group>"; };
+		8F6C3583237A034E00F49CA3 /* EditTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskVC.swift; sourceTree = "<group>"; };
+		8F6C3585237A0F1200F49CA3 /* TaskDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskDetailsVC.swift; path = /Users/martin_michalko/Desktop/xCode/BlackSheep/BlackSheep/Controller/TaskDetailsVC.swift; sourceTree = "<absolute>"; };
+		8F6C3589237DF5DA00F49CA3 /* ShakeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeBtn.swift; sourceTree = "<group>"; };
+		8F6C358B237DF97500F49CA3 /* weekBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weekBtn.swift; sourceTree = "<group>"; };
+		8F6C358F237ED48800F49CA3 /* addTaskBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTaskBtn.swift; sourceTree = "<group>"; };
+		8F73D899232FB68D00D99BFF /* CreateTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskVC.swift; sourceTree = "<group>"; };
+		8F807B9723964852009BB5A6 /* CustomizableSegmentedCotrol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizableSegmentedCotrol.swift; sourceTree = "<group>"; };
+		8FAE2D1823B145A900B624D6 /* EmojiSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSectionHeaderView.swift; sourceTree = "<group>"; };
+		8FB8FF8023D4E13400567C23 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		8FB8FF8223D4E1BC00567C23 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		8FB9430923A50DF200B31B4B /* isPermanentSC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPermanentSC.swift; sourceTree = "<group>"; };
+		8FB9430C23AA426100B31B4B /* TimeLineAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineAndLabel.swift; sourceTree = "<group>"; };
+		8FBC130523842DFF00274CE7 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		8FBC130623842DFF00274CE7 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		8FBC130723842DFF00274CE7 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		8FBC130823842DFF00274CE7 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		8FBC130923842E0000274CE7 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		8FBC130F2385E21A00274CE7 /* TaskTypeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeBtn.swift; sourceTree = "<group>"; };
+		8FDEB01B23984EA200923543 /* emojiBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiBtn.swift; sourceTree = "<group>"; };
+		8FE81F1423B6BFD800E7F11E /* PersonTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTask.swift; sourceTree = "<group>"; };
+		8FE81F1A23B6C19C00E7F11E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		8FE81F1C23B6C78600E7F11E /* PresetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetCell.swift; sourceTree = "<group>"; };
+		8FED0E282326BDEC007B1AFB /* BlackSheep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackSheep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FED0E2B2326BDEC007B1AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FED0E2D2326BDEC007B1AFB /* TaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskVC.swift; sourceTree = "<group>"; };
+		8FED0E302326BDEC007B1AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FED0E352326BDEF007B1AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FED0E382326BDEF007B1AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FED0E3A2326BDEF007B1AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA670A360C241B03AB72B1FD /* Pods_BlackSheep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackSheep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FED0E252326BDEC007B1AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2931F101BF844174820AA038 /* Pods_BlackSheep.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89EAB0EC6B6D8247EA2E471A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA670A360C241B03AB72B1FD /* Pods_BlackSheep.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F2B37F72355DE0C00B3861D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F2B37F82355DE3600B3861D /* TimeConvertor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8FBC13022384168800274CE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC130723842DFF00274CE7 /* Quicksand-Light.ttf */,
+				8FBC130523842DFF00274CE7 /* Quicksand-Medium.ttf */,
+				8FBC130823842DFF00274CE7 /* Quicksand-Bold.ttf */,
+				8FBC130923842E0000274CE7 /* Quicksand-Regular.ttf */,
+				8FBC130623842DFF00274CE7 /* Quicksand-SemiBold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8FE81F1623B6C13A00E7F11E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8FE81F1A23B6C19C00E7F11E /* DataService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8FED0E1F2326BDEC007B1AFB = {
+			isa = PBXGroup;
+			children = (
+				8FED0E2A2326BDEC007B1AFB /* BlackSheep */,
+				8FED0E292326BDEC007B1AFB /* Products */,
+				CEA34EA03C1B2E12C3AEF486 /* Pods */,
+				89EAB0EC6B6D8247EA2E471A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FED0E292326BDEC007B1AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FED0E282326BDEC007B1AFB /* BlackSheep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FED0E2A2326BDEC007B1AFB /* BlackSheep */ = {
+			isa = PBXGroup;
+			children = (
+				8FE81F1623B6C13A00E7F11E /* Data */,
+				8FBC13022384168800274CE7 /* Resources */,
+				8F2B37F72355DE0C00B3861D /* Extensions */,
+				8FED0E402326C5AD007B1AFB /* Model */,
+				8FED0E412326C5B3007B1AFB /* View */,
+				8FED0E422326C5B7007B1AFB /* Controller */,
+				8FED0E2B2326BDEC007B1AFB /* AppDelegate.swift */,
+				8FED0E2F2326BDEC007B1AFB /* Main.storyboard */,
+				8FED0E352326BDEF007B1AFB /* Assets.xcassets */,
+				8FED0E372326BDEF007B1AFB /* LaunchScreen.storyboard */,
+				8F2B37FE2355FE4F00B3861D /* BlackSheep.xcdatamodeld */,
+				8FED0E3A2326BDEF007B1AFB /* Info.plist */,
+			);
+			path = BlackSheep;
+			sourceTree = "<group>";
+		};
+		8FED0E402326C5AD007B1AFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F2B380623608A7200B3861D /* GlobalVars.swift */,
+				8F33B4A7239D3FC5004D09D1 /* CategoryBtn.swift */,
+				8FE81F1423B6BFD800E7F11E /* PersonTask.swift */,
+				8FB9430923A50DF200B31B4B /* isPermanentSC.swift */,
+				8F807B9723964852009BB5A6 /* CustomizableSegmentedCotrol.swift */,
+				8F6C358F237ED48800F49CA3 /* addTaskBtn.swift */,
+				8FDEB01B23984EA200923543 /* emojiBtn.swift */,
+				8F6C358B237DF97500F49CA3 /* weekBtn.swift */,
+				8FBC130F2385E21A00274CE7 /* TaskTypeBtn.swift */,
+				8F6C3589237DF5DA00F49CA3 /* ShakeBtn.swift */,
+				8F33B4AB239D58C4004D09D1 /* ColorBtn.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FED0E412326C5B3007B1AFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F1CCF1723797C4C00E5F6C2 /* TaskCustomView.swift */,
+				8F0AF22223999B2700BDDC93 /* EmojiCell.swift */,
+				8FB9430C23AA426100B31B4B /* TimeLineAndLabel.swift */,
+				8FAE2D1823B145A900B624D6 /* EmojiSectionHeaderView.swift */,
+				8FE81F1C23B6C78600E7F11E /* PresetCell.swift */,
+				8FB8FF8023D4E13400567C23 /* CalendarCell.swift */,
+				8F64C6E723D5C8B1004DC442 /* CalendarHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FED0E422326C5B7007B1AFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FED0E2D2326BDEC007B1AFB /* TaskVC.swift */,
+				8F0D503F23AF77BF00616353 /* PreCreateTaskVC.swift */,
+				8F73D899232FB68D00D99BFF /* CreateTaskVC.swift */,
+				8F6C3583237A034E00F49CA3 /* EditTaskVC.swift */,
+				8F6C3585237A0F1200F49CA3 /* TaskDetailsVC.swift */,
+				8F6902A223993477008AF389 /* EmojiSelectorVC.swift */,
+				8F33B4A9239D53A5004D09D1 /* CreateCategoryVC.swift */,
+				8FB8FF8223D4E1BC00567C23 /* CalendarVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEA34EA03C1B2E12C3AEF486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D6525BB9873F9A9E1928FBB /* Pods-BlackSheep.debug.xcconfig */,
+				64A19D9AA5942F58A42791F9 /* Pods-BlackSheep.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FED0E272326BDEC007B1AFB /* BlackSheep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FED0E3D2326BDEF007B1AFB /* Build configuration list for PBXNativeTarget "BlackSheep" */;
+			buildPhases = (
+				C5B2A7F65AEFAFDF18868A4A /* [CP] Check Pods Manifest.lock */,
+				8FED0E242326BDEC007B1AFB /* Sources */,
+				8FED0E252326BDEC007B1AFB /* Frameworks */,
+				8FED0E262326BDEC007B1AFB /* Resources */,
+				6D077F484528D51B13A75DF5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackSheep;
+			productName = BlackSheep;
+			productReference = 8FED0E282326BDEC007B1AFB /* BlackSheep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FED0E202326BDEC007B1AFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Martin Michalko";
+				TargetAttributes = {
+					8FED0E272326BDEC007B1AFB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 8FED0E232326BDEC007B1AFB /* Build configuration list for PBXProject "BlackSheep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FED0E1F2326BDEC007B1AFB;
+			productRefGroup = 8FED0E292326BDEC007B1AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FED0E272326BDEC007B1AFB /* BlackSheep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FED0E262326BDEC007B1AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FED0E392326BDEF007B1AFB /* LaunchScreen.storyboard in Resources */,
+				8FED0E362326BDEF007B1AFB /* Assets.xcassets in Resources */,
+				8FBC130C23842E0000274CE7 /* Quicksand-Light.ttf in Resources */,
+				8FBC130B23842E0000274CE7 /* Quicksand-SemiBold.ttf in Resources */,
+				8FED0E312326BDEC007B1AFB /* Main.storyboard in Resources */,
+				8FBC130A23842E0000274CE7 /* Quicksand-Medium.ttf in Resources */,
+				8FBC130E23842E0000274CE7 /* Quicksand-Regular.ttf in Resources */,
+				8FBC130D23842E0000274CE7 /* Quicksand-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D077F484528D51B13A75DF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackSheep/Pods-BlackSheep-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackSheep/Pods-BlackSheep-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackSheep/Pods-BlackSheep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5B2A7F65AEFAFDF18868A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlackSheep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FED0E242326BDEC007B1AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F33B4AC239D58C4004D09D1 /* ColorBtn.swift in Sources */,
+				8FE81F1B23B6C19C00E7F11E /* DataService.swift in Sources */,
+				8FBC13102385E21A00274CE7 /* TaskTypeBtn.swift in Sources */,
+				8F6C3586237A0F1200F49CA3 /* TaskDetailsVC.swift in Sources */,
+				8F2B37F92355DE3600B3861D /* TimeConvertor.swift in Sources */,
+				8F6C358A237DF5DA00F49CA3 /* ShakeBtn.swift in Sources */,
+				8FB9430D23AA426100B31B4B /* TimeLineAndLabel.swift in Sources */,
+				8FE81F1D23B6C78600E7F11E /* PresetCell.swift in Sources */,
+				8F6C3590237ED48800F49CA3 /* addTaskBtn.swift in Sources */,
+				8F0D504023AF77BF00616353 /* PreCreateTaskVC.swift in Sources */,
+				8F33B4AA239D53A5004D09D1 /* CreateCategoryVC.swift in Sources */,
+				8FED0E2E2326BDEC007B1AFB /* TaskVC.swift in Sources */,
+				8F0AF22323999B2700BDDC93 /* EmojiCell.swift in Sources */,
+				8F6C358C237DF97500F49CA3 /* weekBtn.swift in Sources */,
+				8F64C6E823D5C8B1004DC442 /* CalendarHeader.swift in Sources */,
+				8F1CCF1823797C4C00E5F6C2 /* TaskCustomView.swift in Sources */,
+				8FB8FF8123D4E13400567C23 /* CalendarCell.swift in Sources */,
+				8FDEB01C23984EA200923543 /* emojiBtn.swift in Sources */,
+				8F33B4A8239D3FC5004D09D1 /* CategoryBtn.swift in Sources */,
+				8F6C3584237A034F00F49CA3 /* EditTaskVC.swift in Sources */,
+				8F73D89A232FB68D00D99BFF /* CreateTaskVC.swift in Sources */,
+				8FB9430A23A50DF200B31B4B /* isPermanentSC.swift in Sources */,
+				8F2B380723608A7200B3861D /* GlobalVars.swift in Sources */,
+				8FB8FF8323D4E1BC00567C23 /* CalendarVC.swift in Sources */,
+				8FED0E2C2326BDEC007B1AFB /* AppDelegate.swift in Sources */,
+				8FAE2D1923B145A900B624D6 /* EmojiSectionHeaderView.swift in Sources */,
+				8F2B38002355FE4F00B3861D /* BlackSheep.xcdatamodeld in Sources */,
+				8FE81F1523B6BFD800E7F11E /* PersonTask.swift in Sources */,
+				8F6902A323993477008AF389 /* EmojiSelectorVC.swift in Sources */,
+				8F807B9823964852009BB5A6 /* CustomizableSegmentedCotrol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FED0E2F2326BDEC007B1AFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FED0E302326BDEC007B1AFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FED0E372326BDEF007B1AFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FED0E382326BDEF007B1AFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FED0E3B2326BDEF007B1AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FED0E3C2326BDEF007B1AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FED0E3E2326BDEF007B1AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6525BB9873F9A9E1928FBB /* Pods-BlackSheep.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBZKLDJNB2;
+				INFOPLIST_FILE = BlackSheep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin-michalko.BlackSheep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8FED0E3F2326BDEF007B1AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A19D9AA5942F58A42791F9 /* Pods-BlackSheep.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBZKLDJNB2;
+				INFOPLIST_FILE = BlackSheep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin-michalko.BlackSheep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FED0E232326BDEC007B1AFB /* Build configuration list for PBXProject "BlackSheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FED0E3B2326BDEF007B1AFB /* Debug */,
+				8FED0E3C2326BDEF007B1AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FED0E3D2326BDEF007B1AFB /* Build configuration list for PBXNativeTarget "BlackSheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FED0E3E2326BDEF007B1AFB /* Debug */,
+				8FED0E3F2326BDEF007B1AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F2B37FE2355FE4F00B3861D /* BlackSheep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F2B37FF2355FE4F00B3861D /* BlackSheep.xcdatamodel */,
+			);
+			currentVersion = 8F2B37FF2355FE4F00B3861D /* BlackSheep.xcdatamodel */;
+			path = BlackSheep.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FED0E202326BDEC007B1AFB /* Project object */;
+}
